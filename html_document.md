@@ -13,9 +13,7 @@ output:
       toc_float: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ## R Markdown {#nextsteps .emphasized}
 
@@ -23,9 +21,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars, echo=FALSE, fig.cap="Fig. 1 - Cars Scaterplot"}
-plot(cars)
-```
+![Fig. 1 - Cars Scaterplot](html_document_files/figure-html/cars-1.png)
 
 ## Including Plots
 
@@ -33,9 +29,7 @@ You can also embed plots, for example.
 
 ### Here is a plot of pressure
 
-```{r pressure, echo=FALSE, fig.cap= "Fig. 2 - Pressure Plot"}
-plot(pressure)
-```
+![Fig. 2 - Pressure Plot](html_document_files/figure-html/pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
